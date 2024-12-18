@@ -88,6 +88,7 @@ public class jogo extends AppCompatActivity {
                         Toast.makeText(jogo.this, "Correto!", Toast.LENGTH_SHORT).show();
                         somCorreto.start(); // toca o som
 
+                        // Soma 1 ponto para pontuação e acertos consecutivos
                         pontuacaoTotal++;
                         acertosConsecutivos++;
                         salvarPontuacoes();
